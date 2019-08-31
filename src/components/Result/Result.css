@@ -1,0 +1,8 @@
+.result {
+    background-color: #000000;
+    color: #ffffff;
+    grid-area: result;
+    padding: 10px;
+    text-align: right;
+    font-size: 25px;
+}

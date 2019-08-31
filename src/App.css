@@ -1,0 +1,28 @@
+.App {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  display: grid;
+  background-color: #504E2C;
+  grid-template-rows: repeat(6, 50px);
+  grid-template-columns: repeat(4, 50px);
+  grid-template-areas: 
+    "result    result    result    result"
+    "clear     plusMinus percent   divide"
+    "num7      num8      num9      multi"
+    "num4      num5      num6      minus"
+    "num1      num2      num3      plus"
+    "num0      num0      point     equal";
+  border: 4px solid gray;
+  border-radius: 4px;
+  max-width: 400px;
+}
+
+.item {
+  border: 1px solid wheat;
+}
