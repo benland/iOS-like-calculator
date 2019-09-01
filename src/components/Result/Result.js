@@ -4,7 +4,7 @@ import { getValue } from '../../helperMethods';
 
 class Result extends React.Component {
     render() {
-        const {decimal} = this.props.result;
+        const { decimal } = this.props.result;
         const value = getValue(this.props.result);
         const displayValue = decimal ? value.toFixed(decimal - 1) : value.toString();
         return (

@@ -10,7 +10,7 @@ export function getDisplayObject(value) {
     return {
         left: Number(left),
         right: Number(right),
-        decimal: right.length,
+        decimal: right.length ? right.length + 1 : 0,
     }
 }
 
